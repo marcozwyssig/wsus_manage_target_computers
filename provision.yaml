@@ -1,0 +1,6 @@
+---
+  vagrant:
+    provisioner: vagrant
+    images: ['StefanScherer/windows_2016']
+    params:
+      vagrant_provider: vmware_workstation
