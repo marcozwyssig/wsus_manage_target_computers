@@ -1,0 +1,1 @@
+powershell -c "pdk bundle exec bolt apply spec/fixtures/manifests/wsus.pp --verbose --inventoryfile spec/fixtures/litmus_inventory.yaml --targets winrm_nodes"

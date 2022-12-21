@@ -26,3 +26,14 @@
 .envrc
 /inventory.yaml
 /spec/fixtures/litmus_inventory.yaml
+/.modules
+/.plan_cache.json
+/.rerun.json
+/.resource_types/anchor.pp
+/.resource_types/file_line.pp
+/.resource_types/reboot.pp
+/.resource_types/windowsfeature.pp
+/.resource_types/wsusserver_computer_target_group.pp
+/.task_cache.json
+/bolt-debug.log
+/bolt-project.yaml
