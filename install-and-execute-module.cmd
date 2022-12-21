@@ -1,0 +1,2 @@
+powershell -c "pdk bundle exec rake litmus:install_module"
+powershell -c "pdk bundle exec bolt apply spec/fixtures/manifests/init.pp --verbose --inventoryfile spec/fixtures/litmus_inventory.yaml --targets winrm_nodes"
